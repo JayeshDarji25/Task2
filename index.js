@@ -1,8 +1,8 @@
 const name = document.getElementById('name');
 const comment = document.getElementById('comment');
 const male = document.getElementById('male');
-var radios = document.getElementsByName("gen");
-var formValid = false;
+let radios = document.getElementsByName("gen");
+let formValid = false;
 
 function checker() {
     if(!name.value.trim().length){
